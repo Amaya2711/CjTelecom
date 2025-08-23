@@ -1,0 +1,4 @@
+{
+    "dbMcp.provider": "sqlserver",
+    "dbMcp.connectionString": "Data Source=161.132.37.248;Initial Catalog=JC_Db;Persist Security Info=True;User ID=SA;Password=AuT1iQS6Gxp9ysX;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False"
+}

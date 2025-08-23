@@ -1,0 +1,73 @@
+namespace PryCjTelecom.ENTIDAD
+{
+    public class PORTAL
+    {
+        public string OC_POS { get; set; }
+        public string IDSOLICITUD { get; set; }
+        public string? AREA_RESPONSABLE { get; set; }
+        public string? ACCION { get; set; }
+        public string? ANTIGUAMIENTO { get; set; }
+        public string? PENDIENTE_DE { get; set; }
+        public string? CONTRATISTA { get; set; }
+        public string? NOMBRE { get; set; }
+        public string? ESTATUS_PAP { get; set; }
+        public string? TIPO_PROYECTO { get; set; }
+        public string? CODIGO_SITE { get; set; }
+        public string? NOMBRE_SITE { get; set; }
+        public string? ESTADO_SITIO { get; set; }
+        public DateTime? F_ESTADO_SITIO { get; set; }
+        public string? ESTADO_CENFILE { get; set; }
+        public DateTime? F_CENFILE_APRUEBA { get; set; }
+        public string? CENFILE { get; set; }
+        public string? ORDEN_COMPRA { get; set; }
+        public string? POSICION_OC { get; set; }
+        public DateTime? FECHA_SOLICITUD { get; set; }
+        public string? SUPERVISOR_OYM_ASIGNADO { get; set; }
+        public DateTime? FECHA_VISITA { get; set; }
+        public DateTime? FECHA_PROGRAMACION { get; set; }
+        public DateTime? FECHA_LISTA_PEND { get; set; }
+        public DateTime? FECHA_EMISION_PEND { get; set; }
+        public DateTime? FECHA_LEV_OBS { get; set; }
+        public DateTime? FECHA_EMISION_PAC { get; set; }
+        public string? JEFE_APROBADOR { get; set; }
+        public DateTime? FECHA_APR_JEFE { get; set; }
+        public string? GERENTE_APROBADOR { get; set; }
+        public DateTime? FECHA_APR_GTE { get; set; }
+        public string? SUB_DIRECTOS_APROBADOR { get; set; }
+        public DateTime? FECHA_APR_SUB_DIR { get; set; }
+        public DateTime? FECHA_EMISION_FAC { get; set; }
+        public string? JEFE_APR_FAC { get; set; }
+        public DateTime? FECHA_APR_JEFE_FAC { get; set; }
+        public string? GTE_APR_FAC { get; set; }
+        public DateTime? FECHA_APR_GTE_FAC { get; set; }
+        public string? SUB_DIR_APR_FAC { get; set; }
+        public DateTime? FECHA_APR_SUB_DIR_FAC { get; set; }
+        public DateTime? FECHA_OBS_SOL { get; set; }
+        public string? ESTADO_EA { get; set; }
+        public DateTime? FECHA_ENVIO_SOLICITUD { get; set; }
+        public DateTime? FECHA_ENVIO_APROBACION { get; set; }
+        public string? ESTADO_PROYECTO { get; set; }
+        public string? OBSERVACION { get; set; }
+        public string? DETALLE_OBS_SOL { get; set; }
+        public string? ESTADO_OBS_SOL { get; set; }
+        public string? OC { get; set; }
+        public string? POSICION { get; set; }
+        public decimal? MONTO_OC { get; set; }
+        public decimal? MONTO_LIQUIDADO { get; set; }
+        public decimal? PORCENTAJE { get; set; }
+        public string? MONEDA { get; set; }
+        public string? REGION { get; set; }
+        public string? SUP_CONSTRUCCION { get; set; }
+        public string? STATUS_GIS { get; set; }
+        public string? ESTADO_APROBACION { get; set; }
+        public string? APLICA_PAC { get; set; }
+        public DateTime? FEC_STAREGISTRO { get; set; }
+        public string? AUTO_ACEPTACION { get; set; }
+        public string? CONCEPTO { get; set; }
+        public string? Columna1 { get; set; }
+        public string? Columna2 { get; set; }
+        public string? Columna3 { get; set; }
+        public string? Columna4 { get; set; }
+        public string? Columna5 { get; set; }
+    }
+}
