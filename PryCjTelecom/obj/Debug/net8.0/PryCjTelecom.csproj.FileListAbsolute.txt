@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\bin\Debug\net8.0\PryCjTelecom.exe
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\bin\Debug\net8.0\PryCjTelecom.deps.json
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\bin\Debug\net8.0\PryCjTelecom.runtimeconfig.json
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\bin\Debug\net8.0\PryCjTelecom.dll
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\bin\Debug\net8.0\PryCjTelecom.pdb
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.AssemblyInfo.cs
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.dll
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\refint\PryCjTelecom.dll
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.pdb
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\PryCjTelecom.genruntimeconfig.cache
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0\ref\PryCjTelecom.dll
