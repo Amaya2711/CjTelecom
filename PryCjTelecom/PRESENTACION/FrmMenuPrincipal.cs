@@ -5,7 +5,8 @@ namespace PRESENTACION
 {
     public class FrmMenuPrincipal : Form
     {
-    private Button btnOperaciones;
+        private readonly Color executiveGray;
+        private Button btnOperaciones;
     private Button btnPagos;
     private Button btnLogistico;
     private Button btnMantenimiento;
