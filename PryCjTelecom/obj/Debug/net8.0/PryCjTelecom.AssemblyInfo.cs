@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PryCjTelecom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e129cbd018860b58548cce8b7aa630ec91973ecd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PryCjTelecom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PryCjTelecom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
