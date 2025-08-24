@@ -97,7 +97,9 @@ namespace PRESENTACION
             if (ValidarUsuario(idUsuario, clave))
             {
                 MessageBox.Show("Login exitoso.");
-                // Abrir el formulario principal o continuar
+                FrmMenuPrincipal menu = new FrmMenuPrincipal();
+                menu.Show();
+                this.Hide();
             }
             else
             {
@@ -118,14 +120,21 @@ namespace PRESENTACION
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = "SELECT COUNT(*) FROM Usuario WHERE IdUsuario = @IdUsuario AND Clave = @Clave";
+                    string query = "SELECT IdUsuario FROM Usuario WHERE IdUsuario = @IdUsuario AND Clave = @Clave";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
                         cmd.Parameters.AddWithValue("@Clave", clave);
                         conn.Open();
-                        int count = (int)cmd.ExecuteScalar();
-                        resultado = count > 0;
+                        object result = cmd.ExecuteScalar();
+                        if (result != null && int.TryParse(result.ToString(), out int id) && id == 1)
+                        {
+                            resultado = true;
+                        }
+                        else
+                        {
+                            resultado = false;
+                        }
                     }
                 }
             }
