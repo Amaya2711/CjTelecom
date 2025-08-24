@@ -97,9 +97,12 @@ namespace PRESENTACION
             if (ValidarUsuario(idUsuario, clave))
             {
                 MessageBox.Show("Login exitoso.");
-                FrmMenuPrincipal menu = new FrmMenuPrincipal();
-                menu.Show();
                 this.Hide();
+                using (FrmMenuPrincipal menu = new FrmMenuPrincipal())
+                {
+                    menu.ShowDialog();
+                }
+                this.Close();
             }
             else
             {

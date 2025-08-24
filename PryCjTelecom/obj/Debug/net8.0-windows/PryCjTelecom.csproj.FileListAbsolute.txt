@@ -61,3 +61,5 @@ C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\refint\
 C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\PryCjTelecom.pdb
 C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\PryCjTelecom.genruntimeconfig.cache
 C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\ref\PryCjTelecom.dll
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\PRESENTACION.FrmLogin.resources
+C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\obj\Debug\net8.0-windows\PryCjTelecom.csproj.GenerateResource.cache

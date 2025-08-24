@@ -17,6 +17,22 @@ namespace PRESENTACION
         public FrmMenuPrincipal()
         {
             InitializeComponent();
+            // --- Lógica de estilos ejecutivos fuera de InitializeComponent ---
+            var executiveBlue = System.Drawing.Color.FromArgb(33, 37, 41); // Azul oscuro
+            var executiveGray = System.Drawing.Color.FromArgb(240, 240, 240); // Gris claro
+            var executiveFont = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+
+            // Asegurarse de que todos los botones están inicializados
+            if (btnOperaciones != null) { btnOperaciones.BackColor = executiveBlue; btnOperaciones.ForeColor = System.Drawing.Color.White; btnOperaciones.Font = executiveFont; btnOperaciones.FlatStyle = FlatStyle.Flat; btnOperaciones.FlatAppearance.BorderSize = 0; btnOperaciones.Cursor = Cursors.Hand; }
+            if (btnPagos != null) { btnPagos.BackColor = executiveBlue; btnPagos.ForeColor = System.Drawing.Color.White; btnPagos.Font = executiveFont; btnPagos.FlatStyle = FlatStyle.Flat; btnPagos.FlatAppearance.BorderSize = 0; btnPagos.Cursor = Cursors.Hand; }
+            if (btnLogistico != null) { btnLogistico.BackColor = executiveBlue; btnLogistico.ForeColor = System.Drawing.Color.White; btnLogistico.Font = executiveFont; btnLogistico.FlatStyle = FlatStyle.Flat; btnLogistico.FlatAppearance.BorderSize = 0; btnLogistico.Cursor = Cursors.Hand; }
+            if (btnMantenimiento != null) { btnMantenimiento.BackColor = executiveBlue; btnMantenimiento.ForeColor = System.Drawing.Color.White; btnMantenimiento.Font = executiveFont; btnMantenimiento.FlatStyle = FlatStyle.Flat; btnMantenimiento.FlatAppearance.BorderSize = 0; btnMantenimiento.Cursor = Cursors.Hand; }
+            if (btnVacaciones != null) { btnVacaciones.BackColor = executiveBlue; btnVacaciones.ForeColor = System.Drawing.Color.White; btnVacaciones.Font = executiveFont; btnVacaciones.FlatStyle = FlatStyle.Flat; btnVacaciones.FlatAppearance.BorderSize = 0; btnVacaciones.Cursor = Cursors.Hand; }
+            if (btnPlanta != null) { btnPlanta.BackColor = executiveBlue; btnPlanta.ForeColor = System.Drawing.Color.White; btnPlanta.Font = executiveFont; btnPlanta.FlatStyle = FlatStyle.Flat; btnPlanta.FlatAppearance.BorderSize = 0; btnPlanta.Cursor = Cursors.Hand; }
+            if (btnLegal != null) { btnLegal.BackColor = executiveBlue; btnLegal.ForeColor = System.Drawing.Color.White; btnLegal.Font = executiveFont; btnLegal.FlatStyle = FlatStyle.Flat; btnLegal.FlatAppearance.BorderSize = 0; btnLegal.Cursor = Cursors.Hand; }
+
+            this.BackColor = System.Drawing.Color.FromArgb(240, 240, 240); // Gris claro
+            this.Font = new System.Drawing.Font("Segoe UI", 10F);
         }
 
         private void InitializeComponent()
@@ -70,9 +86,11 @@ namespace PRESENTACION
 
             this.ContextMenuStrip = this.contextMenu;
 
-            // Formulario principal
+            // Formulario principal con estilo ejecutivo
             this.Text = "ERP - Menú Principal";
             this.ClientSize = new System.Drawing.Size(560, 220);
+            this.BackColor = executiveGray;
+            this.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.Controls.Add(this.btnOperaciones);
             this.Controls.Add(this.btnPagos);
             this.Controls.Add(this.btnLogistico);

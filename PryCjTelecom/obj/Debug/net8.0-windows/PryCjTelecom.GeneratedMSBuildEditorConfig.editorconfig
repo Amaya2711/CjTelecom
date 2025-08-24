@@ -17,3 +17,6 @@ build_property.RootNamespace = PryCjTelecom
 build_property.ProjectDir = C:\Users\pc\source\repos\CjTelecom\PryCjTelecom\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\CjTelecom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|c:\\users\\pc\\source\\repos\\cjtelecom\\prycjtelecom\\presentacion\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|solutionrelative:prycjtelecom\\presentacion\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|c:\\users\\pc\\source\\repos\\cjtelecom\\prycjtelecom\\presentacion\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|solutionrelative:prycjtelecom\\presentacion\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|c:\\users\\pc\\source\\repos\\cjtelecom\\prycjtelecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|solutionrelative:prycjtelecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|c:\\users\\pc\\source\\repos\\cjtelecom\\prycjtelecom\\prycjtelecom.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B85D76EE-9155-4001-B58C-7BC55FB62095}|PryCjTelecom\\PryCjTelecom.csproj|solutionrelative:prycjtelecom\\prycjtelecom.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PRESENTACION\\FrmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "PryCjTelecom\\PRESENTACION\\FrmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PRESENTACION\\FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PryCjTelecom\\PRESENTACION\\FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T03:04:31.384Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PRESENTACION\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "PryCjTelecom\\PRESENTACION\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PRESENTACION\\FrmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PryCjTelecom\\PRESENTACION\\FrmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T03:03:12.533Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\Program.cs",
+              "RelativeDocumentMoniker": "PryCjTelecom\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\Program.cs",
+              "RelativeToolTip": "PryCjTelecom\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T02:59:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PryCjTelecom",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PryCjTelecom.csproj",
+              "RelativeDocumentMoniker": "PryCjTelecom\\PryCjTelecom.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\CjTelecom\\PryCjTelecom\\PryCjTelecom.csproj",
+              "RelativeToolTip": "PryCjTelecom\\PryCjTelecom.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T02:48:40.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
