@@ -20,7 +20,14 @@ namespace PRESENTACION
 
         public FrmLogin()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al inicializar el formulario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void InitializeComponent()
@@ -101,18 +108,30 @@ namespace PRESENTACION
         private bool ValidarUsuario(string idUsuario, string clave)
         {
             bool resultado = false;
-            string connectionString = "<TU_CADENA_CONEXION_AQUI>";
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            string connectionString = "Data Source=161.132.37.248;Initial Catalog=JC_Db;Persist Security Info=True;User ID=SA;Password=AuT1iQS6Gxp9ysX;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False";
+            if (connectionString == "<TU_CADENA_CONEXION_AQUI>")
             {
-                string query = "SELECT COUNT(*) FROM Usuario WHERE IdUsuario = @IdUsuario AND Clave = @Clave";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                MessageBox.Show("La cadena de conexión no está configurada. Por favor, actualícela en el código.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
-                    cmd.Parameters.AddWithValue("@Clave", clave);
-                    conn.Open();
-                    int count = (int)cmd.ExecuteScalar();
-                    resultado = count > 0;
+                    string query = "SELECT COUNT(*) FROM Usuario WHERE IdUsuario = @IdUsuario AND Clave = @Clave";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
+                        cmd.Parameters.AddWithValue("@Clave", clave);
+                        conn.Open();
+                        int count = (int)cmd.ExecuteScalar();
+                        resultado = count > 0;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al validar usuario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return resultado;
         }
